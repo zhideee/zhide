@@ -1,0 +1,81 @@
+header{
+    text-align: center;
+    color: red;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    display: inline-block;
+    border:  0;
+}
+header h1{
+    margin: 1px;
+    font-family: 'Trade Winds', cursive;
+}
+html{
+    background-color: #1f1f1f;
+}
+nav{
+    padding: 0px;
+    text-align: center;
+    position: sticky;
+    top: 50px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    margin: 5px;
+    font-size: 24px;
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+hr{
+    border: 1px solid red;
+}
+.redline{
+    top: 100px;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+}
+.images li{
+    display: inline-block;
+    width: 30%;
+    margin: 5px 1%;
+}
+.images li img{
+    max-width: 100%;
+}
+.images li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+.images li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.images img{
+    border: 2px solid red;
+}
+.images img:hover{
+    border: 1px solid red;
+}
+.wishlist{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
