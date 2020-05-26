@@ -1,7 +1,6 @@
 header{
     text-align: center;
     color: red;
-    position: fixed;
     width: 100%;
     z-index: 1;
     top: 0;
@@ -20,7 +19,6 @@ html{
 nav{
     padding: 0px;
     text-align: center;
-    position: sticky;
     top: 50px;
 }
 nav ul{
@@ -79,3 +77,11 @@ hr{
     text-align: center;
     font-family: Arial;
 }
+main h2{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 100;
+    margin: 5px;
+}
+
