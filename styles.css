@@ -7,7 +7,12 @@ header{
     left: 0;
     font-size: 30px;
     display: inline-block;
-    border:  0;
+    position: fixed;
+    background-color: #1f1f1f;
+}
+header hr{
+    margin: 0;
+    z-index: 4;
 }
 header h1{
     margin: 1px;
@@ -19,7 +24,6 @@ html{
 nav{
     padding: 0px;
     text-align: center;
-    top: 50px;
 }
 nav ul{
     white-space: nowrap;
@@ -66,12 +70,18 @@ hr{
     text-decoration: underline;
     font-weight: bold;
 }
+.images li p{
+    text-decoration: none;
+    color: white;
+    font-family: Arial
+}
 .images img{
     border: 2px solid red;
     border-radius: 16px;
 }
 .images img:hover{
     border: 1px solid red;
+    box-shadow: black 0px 0px 30px;
 }
 .wishlist{
     color: white;
