@@ -95,4 +95,55 @@ main h2{
     font-weight: 100;
     margin: 5px;
 }
+h2{
+    text-align: center;
+    padding: 0px;
+    font-family: Arial;
+    color: white;
+}
+.songs{
+    text-align: center;
+    margin: 80px 0;
+    right: 10px;
+}
+.songborder li{
+    border: 2px solid red;
+    border-radius: 16px;
+}
+.songborder li .kvd{
+    border-radius: 13px;
+    border-bottom: 3px solid red;
+    max-width: 30%;
+    max-height: 30%;
+}
+.songborder .kvd:hover{
+    border-radius: 16px;
+    border-bottom: 3px solid red;
+}
+.songs li{
+    display: inline-block;
+    max-width: 30%;
+    margin: 5px 1%;
+}
+.songs li .kvd{
+    max-width: 100%;
+}
+.songs li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+}
+.songborder li:hover{
+    box-shadow: black 0px 0px 30px;
+}
+.kvd{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background: transparent url("../img/König von deutschland.png") no-repeat 0 0;
+}
+.kvd:hover{
+    background-position: 0 -500px;
+}
 
