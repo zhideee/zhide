@@ -146,4 +146,6 @@ h2{
 .kvd:hover{
     background-position: 0 -500px;
 }
-
+audio:focus{
+    outline: none;
+}
