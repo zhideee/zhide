@@ -149,3 +149,9 @@ h2{
 audio:focus{
     outline: none;
 }
+video{
+    max-width: 100%;
+}
+.GB{
+    text-align: center;
+}
