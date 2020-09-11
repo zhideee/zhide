@@ -4,7 +4,7 @@ button.onclick = function(){
 
     var input = prompt("Gib hier deinen Code ein:") 
 
-    if (input === "ygc") {
+    if (input === "ygc" || "YgC" || "yGC" || "Ygc" || "YGC" || "ygC") {
         window.location.href = "https://drive.google.com/uc?export=download&id=1-wB4OzGxpxaSodkbf15t1DjLowBMXUab";
     }
     else{
