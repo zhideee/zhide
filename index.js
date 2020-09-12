@@ -12,7 +12,7 @@ button.onclick = function(){
             document.getElementById("nggyu").play();
         }
         else{
-            if(input === "paypal" || "PayPal" || "payPal" || "Paypal" || "PAYPAL"){
+            if(input === "paypal"){
                 window.location.href = "https://paypal.me/zhideee";
             }
             else{
