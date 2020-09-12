@@ -4,7 +4,7 @@ button.onclick = function(){
 
     var input = prompt("Gib hier deinen Code ein:") 
 
-    if (input === "ygc" || "YgC" || "yGC" || "Ygc" || "YGC" || "ygC") {
+    if (input === "ygc") {
         window.location.href = "https://drive.google.com/uc?export=download&id=1-wB4OzGxpxaSodkbf15t1DjLowBMXUab";
     }
     else{
@@ -16,7 +16,7 @@ button.onclick = function(){
                 window.location.href = "https://paypal.me/zhideee";
             }
             else{
-                alert("Dieser Code existiert nicht oder wurde falsch eingegeben!")
+                alert("Dieser Code existiert nicht oder wurde falsch eingegeben!");
             }
         }
     }
