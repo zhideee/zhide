@@ -21,3 +21,9 @@ button.onclick = function(){
         }
     }
 }
+
+function happymonkey(){
+
+    window.location.replace("happymonkeycircle.html");
+
+}
