@@ -24,6 +24,6 @@ button.onclick = function(){
 
 function happymonkey(){
 
-    window.location.replace("happymonkeycircle.html");
+    window.location.replace("https://www.zhide.ml/Video/happy%20monkey%20circle.mp4");
 
 }
