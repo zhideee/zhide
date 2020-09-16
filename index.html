@@ -1,47 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title> zhide - home </title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="huter">
-    <header>
-        <h1 onclick="happymonkey()">zhide</h1>
-    </header>
+let button = document.getElementById("codeA");
 
-    <br> <br> <br> <br> 
-    <hr> 
+button.onclick = function(){
 
-    <nav class="main-nav">
-        <ul>
-            <li><a href="index.html" class="menu">Projects</a></li>
-            <li><a href="Wunschliste.html" class="menu">Wishlist</a></li>
-            <li><a href="ygc.html" class="menu">ygc</a></li>
-        </ul>
-    </nav>
-    </div>
+    var input = prompt("Gib hier deinen Code ein:") 
 
-    <hr>
+    if (input === "ygc") {
+        window.location.href = "https://drive.google.com/uc?export=download&id=1-wB4OzGxpxaSodkbf15t1DjLowBMXUab";
+    }
+    else{
+        if (input === "187") {
+            document.getElementById("nggyu").play();
+        }
+        else{
+            if(input === "paypal"){
+                window.location.href = "https://paypal.me/zhideee";
+            }
+            else {
+                if (input === "tetris") {
+                    window.location.replace("tetris.html")
+                }
+                else{
+                    alert("Dieser Code existiert nicht oder wurde falsch eingegeben!");
+                }
+            }
+        }
+    }
+}
 
-    <main>
-        <ul class="images">
-            <li><a href="Wunschliste.html"><img src="/img/Wunschliste.png" alt=""></a> <br> <a href="Wunschliste.html">Wishlist</a></li>
-            <li><a href="https://drive.google.com/u/0/uc?export=download&confirm=9hf6&id=1WcCB_VxSOmTj6YHlOFUWuGSboVNsZ_nf"><img src="img/Cover.png" alt=""></a> <br> <a href="https://drive.google.com/u/0/uc?export=download&confirm=9hf6&id=1WcCB_VxSOmTj6YHlOFUWuGSboVNsZ_nf">fettoh B-Day</a></li>
-            <li><a href="ygc.html"><img src="img/wide.jpg" alt=""></a> <br> <a href="ygc.html">ygc releases</a></li>
-        </ul>
-    </main>
+function happymonkey(){
 
-    <center> 
-        <a id="codeA">Code einlösen</a>
-    </center>
+    window.location.replace("https://www.zhide.ml/Video/happy%20monkey%20circle.mp4");
 
-    <audio src="/audio/Rick Astley - Never Gonna Give You Up.mp3" loop id="nggyu"></audio>
-
-    <script src="index.js"></script>
-
-</body>
-</html>
+}
