@@ -15,8 +15,13 @@ button.onclick = function(){
             if(input === "paypal"){
                 window.location.href = "https://paypal.me/zhideee";
             }
-            else{
-                alert("Dieser Code existiert nicht oder wurde falsch eingegeben!");
+            else {
+                if (input === "tetris") {
+                    window.location.replace("tetris.html")
+                }
+                else{
+                    alert("Dieser Code existiert nicht oder wurde falsch eingegeben!");
+                }
             }
         }
     }
