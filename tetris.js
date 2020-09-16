@@ -208,7 +208,7 @@ function update(time = 0) {
 }
 
 function updateScore() {
-    document.getElementById("score").innerText = player.score;
+    document.getElementById("score").innerText = "Score: " + player.score;
 }
 
 const colors = [
@@ -245,3 +245,11 @@ document.addEventListener("keydown", event => {
 playerReset();
 updateScore();
 update();
+
+function stopM(){
+    document.getElementById("theme").pause();
+    document.getElementById("onoff").innerHTML("turn music on");
+}
+function startM() {
+    document.getElementById("theme").play();
+}
